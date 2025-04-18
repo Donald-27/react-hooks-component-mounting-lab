@@ -43,7 +43,12 @@
     "@babel/preset-react": "^7.22.15",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.8",
+    "jest-node-exports-resolver": "^1.1.6",
     "sinon": "^6.3.3"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "resolver": "jest-node-exports-resolver"
   },
   "browserslist": {
     "production": [
